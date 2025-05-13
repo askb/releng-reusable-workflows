@@ -35,3 +35,9 @@ types=Fix,Feat,Chore,Docs,Style,Refactor,Perf,Test,Revert,CI,Build
 # Disable linting on lines that have URLs on them
 [ignore-body-lines]
 regex=(.*)https?://(.*)
+
+ignore-by-author-name=^.*\[bot\]$,^dependabot.*,^github-actions.*,^pre-commit-ci.*
+regex-style-search=true
+
+[ignore-body-lines]
+regex=^Signed-off-by

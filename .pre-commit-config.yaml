@@ -35,6 +35,9 @@ repos:
     rev: acc9d9de6369b76d22cb4167029d2035e8730b98 # frozen: v0.19.1
     hooks:
       - id: gitlint
+        stages: [commit-msg]
+        additional_dependencies: []
+        args: [--config=.gitlint]
 
   - repo: https://github.com/adrienverge/yamllint.git
     rev: be92e15345b32661abee2e675d765ae79686eb4c  # frozen: v1.37.0
