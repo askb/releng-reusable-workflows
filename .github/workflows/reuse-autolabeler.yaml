@@ -49,7 +49,7 @@ on:
         required: false
         type: string
         # yamllint disable-line rule:line-length
-        default: 'lfreleng-actions//.github/harden-runner/lfreleng-actions/allow_list.txt@ca8ce369a97afc64b6895266f10df9b5f5969743'  # v0.6.0
+        default: 'lfreleng-actions//.github/harden-runner/lfreleng-actions/allow_list.txt@f0f76ac22f342c9a788ebcabe584e68a79cc2e83'  # v0.16.0
       config_name:
         # yamllint disable-line rule:line-length
         description: "release-drafter config file under .github/ used for labels"
